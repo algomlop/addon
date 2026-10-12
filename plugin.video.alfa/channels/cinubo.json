@@ -1,0 +1,50 @@
+{
+  "id": "cinubo",
+  "name": "Cinubo",
+  "active": true,
+  "login_required": true,
+  "adult": false,
+  "language": ["cast", "lat"],
+  "thumbnail": "https://cinubo.com/images/pwa/apple-touch-icon.png",
+  "banner": "cinubo.png",
+  "fanart": "",
+  "categories": [
+    "movie",
+    "tvshow",
+    "anime"
+  ],
+  "settings": [
+    {
+      "id": "external_cookies",
+      "type": "text",
+      "label": "Cookies de sesión (login con captcha) con formato dominio:nombre¡valor;nombre¡valor...",
+      "default": "",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "silence_mode",
+      "type": "bool",
+      "label": "Deshabilitar notificaciones (login/logout)",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra (TMDB)",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}
